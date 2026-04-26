@@ -73,3 +73,10 @@ namespace DSA.ArrayAndHashing
         }
     }
 }
+
+/*
+In the first pass, I maintain two candidates and their counts.
+If the current number matches a candidate, I increment its count.
+If a count becomes zero, I replace that candidate.
+If the number matches neither, I decrement both counts — effectively cancelling out three distinct elements.
+*/
